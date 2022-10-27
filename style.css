@@ -186,3 +186,7 @@ h1{
     height: 2vh;
     opacity: 0.5;
 }
+
+.yellow{
+    color: rgb(255, 187, 0);
+}
