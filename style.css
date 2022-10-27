@@ -21,7 +21,7 @@ h1{
 #nav-con{
     display: flex;
     justify-content: flex-start;
-    gap: 4%;
+    gap: 3%;
     border: 5px solid white;
     background: rgb(255, 255, 255);
     height: 7vh;
@@ -145,7 +145,7 @@ h1{
 
 #circle{
     line-height: 32px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(204deg) brightness(104%) contrast(101%);
+    color: white;
 }
 
 .small-circle{
