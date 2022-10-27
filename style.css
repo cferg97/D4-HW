@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgb(245,244,248);
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -42,6 +43,8 @@ h1{
     background-color: rgb(245,244,248);
 }
 
+
+
 #user{
     background-image: url(./assets/avatar-5.jpg);
     background-size: cover;
@@ -62,6 +65,10 @@ h1{
     width: 35vw;
     padding-right: 6vw;
 
+}
+
+#hero-text > p {
+    opacity: 0.6;
 }
 
 #buttons{
@@ -136,7 +143,7 @@ h1{
     width: 18vw;
     height: 20vw;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
 }
 
 .circle{
@@ -170,23 +177,86 @@ h1{
     border-top-right-radius: 20px;
 }
 
-#js > #card-img{
+.card-img{
     display: flex;
     width: 100%;
-    height: 33%;
+    height: 37%;
+}
+
+#js-img{
     background-image: url(./assets/course-javascript.jpg);
+    background-size: cover;
+}
+
+#node-img{
+    background-image: url(./assets/course-node.jpg);
+    background-size: cover;
+}
+
+#graph-img{
+    background-image: url(./assets/course-graphql.jpg);
+    background-size: cover;
+}
+
+#laravel-img{
+    background-image: url(./assets/course-laravel.jpg);
     background-size: cover;
 }
 
 .star{
     height: 2vh;
+    user-select: none;
 }
 
 .star-line{
     height: 2vh;
     opacity: 0.5;
+    user-select: none;
 }
 
 .yellow{
     color: rgb(255, 187, 0);
 }
+
+hr{
+    width: 75vw;
+    opacity: 0.2;
+}
+
+#footer-con{
+    display: flex;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+}
+
+.course-info{
+    word-spacing: 2px;
+}
+
+.small{
+    padding-left: 0.3vw;
+    font-size: 0.75em;
+    opacity: 0.4;
+}
+
+.price{
+    font-weight: bolder;
+    
+}
+
+.scored{
+    text-decoration: line-through;
+    font-size: 0.7em;
+    opacity: 0.5;
+}
+
+.author{
+    line-height: 3.6vh;
+    border-top: 1px solid rgb(245,244,248);
+    display: flex;
+    justify-content: center;
+    
+}
+    
