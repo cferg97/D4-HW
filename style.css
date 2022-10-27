@@ -6,13 +6,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background: rgb(245,244,248);
 }
 
 h1{
-    font-size: 3em;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+    font-size: 2.65em;
+    padding-bottom: 3vh;
     font-weight: bolder;
 }
 
@@ -27,32 +29,123 @@ h1{
     padding-left: 2vw;
 }
 
+#icons{
+    line-height: 4.6vh;
+    display: flex;
+    margin-left: auto;
+    gap: 10%;
+    padding-right: 2vw;
+}
+
+#notifications{
+    text-align: center;
+    background-color: rgb(245,244,248);
+}
+
+#user{
+    background-image: url(./assets/avatar-5.jpg);
+    background-size: cover;
+}
+
 #hero-con{
     color: white;
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 45vh;
     background: rgb(117, 80, 254);
+    width: 100%;
 }
 
 #hero-con > #hero-text{
-    margin-top: 3vw;
+    padding: 5vh;
+    justify-self: center;
     width: 35vw;
-    margin-left: 4vw;
     padding-right: 6vw;
 
 }
 
-#hero-text > p {
-    font-size: 1.3em;
+#buttons{
+    font-weight: bold;
+    padding-top: 1vw;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1%;
 }
 
-img{
-    
+
+.top-buttons{
+    background-color: white;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 5px;
+    line-height: 6vh;
+    text-align: center;
+}
+
+.top-buttons:hover{
+    cursor: pointer;
+}
+
+#box1{
+    background: rgb(26,203,152);
+}
+
+#box2{
+    color: black;
+}
+
+#hero-text > p {
+    font-size: 1.4em;
 }
 
 #info-con{
     font-size: .8em;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    gap: 15vw;
+}
+
+#info-con > div{
+    width: 10vw;
+}
+
+.heading-text{
+    margin-left: 36vh;
+    margin-top: 15vh;
+}
+
+#card-con{
+    display: flex;
+    justify-content: center;
+}
+
+#recommend-cards{
+    display: flex;
+    margin-top: 3vh;
+    gap: 5%;
+}
+
+.card{
+    background: white;
+    width: 18vw;
+    height: 20vw;
+    border-radius: 20px;
+}
+
+.circle{
+    align-self: center;
+}
+
+#circle{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(204deg) brightness(104%) contrast(101%);
+}
+
+.small-circle{
+    height: 4.6vh;
+    width: 5vh;
+    border-radius: 50%;
+    background-color: black;
 }
